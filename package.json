@@ -1,0 +1,14 @@
+{
+  "name": "advanced-css",
+  "version": "1.0.0",
+  "description": "Landng page for AB Tours",
+  "main": "app.js",
+  "scripts": {
+   "compiled:sass":"node-sass sass/main.scss css/index.css -w"
+  },
+  "author": "Arigbede Abiodun",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
